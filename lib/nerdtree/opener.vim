@@ -246,11 +246,7 @@ function! s:Opener._openFile()
         return
     endif
 
-    call self._gotoTargetWin()
     call self._path.edit()
-    if self._stay
-        call self._restoreCursorPos()
-    endif
 endfunction
 
 "FUNCTION: Opener._openDirectory(node) {{{1

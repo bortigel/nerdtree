@@ -270,7 +270,7 @@ endfunction
 
 "FUNCTION: Path.edit() {{{1
 function! s:Path.edit()
-    exec "edit " . self.str({'format': 'Edit'})
+    call g:Multihead.NERDTreeMH.multihead_client.send_expr( "edit " . self.str({'format': 'Edit'}) . ' | call foreground()' )
 endfunction
 
 "FUNCTION: Path.extractDriveLetter(fullpath) {{{1

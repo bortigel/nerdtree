@@ -4,6 +4,8 @@ The NERD Tree
 Intro
 -----
 
+**This fork adds [multihead](https://github.com/bortigel/vim-multihead) support.**
+
 The NERD tree allows you to explore your filesystem and to open files and
 directories. It presents the filesystem to you in the form of a tree which you
 manipulate with the keyboard and/or mouse. It also allows you to perform
